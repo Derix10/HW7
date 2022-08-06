@@ -7,7 +7,6 @@ public class Main {
         Magic magic = new Magic(300, 22);
         Warrior warrior = new Warrior(500, 59);
         Hero[] myheroes = {medic, magic, warrior};
-        String[] hero = {"Медик", "Маг", "Воин"};
         for (int i = 0; i < 1; i++) {
             warrior.applySuperAbility("КРИТИЧЕСКИЙ УРОН");
             magic.applySuperAbility("ОГНЕННЫЙ ШАР");
