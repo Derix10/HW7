@@ -6,8 +6,7 @@ public class Warrior extends Hero{
     }
 
     @Override
-    public String applySuperAbility(String superAbilityType) {
-        System.out.println("Воин применил способность: "+superAbilityType);
-        return superAbilityType;
+    public void applySuperAbility(String superAbility) {
+        System.out.println("Воин применил способность: "+superAbility);
     }
 }

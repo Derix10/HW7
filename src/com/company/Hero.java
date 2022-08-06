@@ -31,7 +31,8 @@ public abstract class Hero implements HavingSuperAbility{
           return superAbility;
      }
 
-     public void setSuperAbility(String superAbility) {
+     public String setSuperAbility(String superAbility) {
           this.superAbility = superAbility;
+          return superAbility;
      }
 }

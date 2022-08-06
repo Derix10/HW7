@@ -6,8 +6,7 @@ public class Magic extends Hero{
     }
 
     @Override
-    public String applySuperAbility(String superAbilityType) {
-        System.out.println("Маг применил спсобность: "+superAbilityType);
-        return superAbilityType;
+    public void applySuperAbility(String superAbility) {
+        System.out.println("Маг применил спсобность: "+superAbility);
     }
 }
